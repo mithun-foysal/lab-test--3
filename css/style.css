@@ -1,0 +1,201 @@
+
+.navbar-default {
+	position: fixed;
+	top: 0%;
+	left: 5%;
+	z-index: 100;
+    background-color: rgba(255, 255, 255, 0.01);
+    border: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ddd;
+}
+.nav .bar {
+	display: none;
+	width: 50px;
+	height: 5px;
+	background-color: #54d154;
+}
+.navbar-default .navbar-nav > li > a:focus, 
+.navbar-default .navbar-nav > li > a:hover {
+    color: #fff;
+    font-size: 20px;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a:focus, 
+.navbar-default .navbar-nav > li > a:hover .bar{
+    display: inline-block;
+}
+.carousel-inner img {
+    min-width: 100%;    
+}
+.carousel-caption {
+    position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.carousel-caption h1 {
+    font-size: 45px;
+}
+.carousel-caption>h3 {
+	display: inline-block;
+	font-size: 20px;
+	background-color: #54d154; 
+	color: #ddd;
+    margin: 0 auto;
+    padding: 15px 20px;
+    border: 1px solid green;
+    border-radius: 25%;
+}
+
+header .scrol button {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid black;
+	border-radius: 25%;
+	padding: 2px 5px;
+}
+
+
+/* what-we-do start here*/
+
+#what-we-do .mini-border {
+	display: inline-block;
+	width: 50px;
+	height: 4px;
+	background-color: #000;
+	margin-top: 0;
+}
+
+#what-we-do .icon-back {
+	padding: 25px;
+	width: 160px;
+	border-radius: 15%;
+	margin: 0 auto;
+	background-color: #e1f3e1;
+}
+#what-we-do .icon-back {
+	color: #54d154;
+}
+#what-we-do p {
+	margin: 10px 50px;
+}
+#what-we-do a {
+	margin-top: 10px;
+	border-radius: 25%;
+	background-color: #54d154;
+}
+#what-we-do .row {
+	margin: 60px 0;
+}
+
+/* work section start here*/
+
+#work {
+	background-color: #54d154;
+}
+#work .mini-border {
+	display: inline-block;
+	width: 50px;
+	height: 4px;
+	background-color: #000;
+	margin-top: 0;
+}
+#work img {
+	margin-top: 20px;
+}
+.work-content .btn {
+	margin: 30px 0;
+	border-radius: 35%;
+}
+#work .view-button {
+	display: inline-block;
+	padding: 0 10px;
+	border-radius: 25%;
+	margin: 30px auto;
+	background-color: #e1f3e1;
+}
+
+/* work section start here*/
+
+#testimonial {
+	color: #828181;
+	background-color: #fff;
+}
+#testimonial .mini-border {
+	display: inline-block;
+	width: 50px;
+	height: 4px;
+	background-color: #000;
+	margin-top: 0;
+}
+#testimonial blockquote {
+	display: inline-block;
+	margin: 0 150px;
+}
+
+/* client section start here*/
+
+#client {
+	color: #828181;
+	background-color: #f2f1f1;
+}
+#client img {
+	margin: 25px;
+}
+#client .content {
+	padding: 25px;
+}
+#client .mini-border {
+	display: inline-block;
+	width: 50px;
+	height: 4px;
+	background-color: #000;
+	margin-top: 0;
+}
+#client .see-button {
+	display: inline-block;
+ /* background: #;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);*/
+  /*-webkit-border-radius: 24;
+  -moz-border-radius: 24;*/
+  background-color: #dddcdc;
+   cursor: pointer;
+  border-radius: 24px;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 0 10px;
+  text-decoration: none;
+  margin: 30px;
+}
+.see-button a {
+	text-decoration: none;
+	color: black;
+}
+
+
+/* meet section start here*/
+#meet {
+	margin: 80px 0;
+	position: ;
+}
+#meet .stick {
+	display: inline-block;
+	width: 150px;
+	height: 8px;
+	background-color: black;
+	transform: rotate(90deg);
+	margin: 90px 0;
+	margin-right: 20px;
+	position: relative;
+	right: 15%;
+
+}
